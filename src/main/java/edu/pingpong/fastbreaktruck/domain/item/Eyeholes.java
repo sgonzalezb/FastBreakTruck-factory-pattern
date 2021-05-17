@@ -11,11 +11,11 @@ public class Eyeholes implements Item {
 
     @Override
     public String itemName() {
-        return getName();
+        return this.name;
     }
 
     @Override
     public double itemPrice() {
-        return getPrice();
+        return this.price;
     }
 }

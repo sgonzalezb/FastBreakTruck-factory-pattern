@@ -10,6 +10,6 @@ public class Caja implements Packing{
 
     @Override
     public String shapePack() {
-        return "Caja";
+        return this.shape;
     }
 }

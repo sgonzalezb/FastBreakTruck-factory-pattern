@@ -10,6 +10,6 @@ public class Tubo implements Packing{
 
     @Override
     public String shapePack() {
-        return "Tubo";
+        return this.shape;
     }
 }

@@ -10,11 +10,11 @@ public class TurbulentJuice implements Drink {
 
     @Override
     public String name() {
-        return getName();
+        return this.name;
     }
 
     @Override
     public double price() {
-        return getPrice();
+        return this.price;
     }
 }

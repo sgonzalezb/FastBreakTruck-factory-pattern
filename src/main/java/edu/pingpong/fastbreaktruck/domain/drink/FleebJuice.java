@@ -21,11 +21,11 @@ public class FleebJuice implements Drink{
 
     @Override
     public String name() {
-        return getName();
+        return this.name ; /*getName; por el decorador @Data*/
     }
 
     @Override
     public double price() {
-        return getPrice();
+        return this.price;
     }
 }

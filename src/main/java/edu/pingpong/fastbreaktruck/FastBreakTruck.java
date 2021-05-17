@@ -15,7 +15,7 @@ public class FastBreakTruck
 
         /*Bebida*/
         FactoryDrink createdDrink = new FactoryDrink();
-        Drink drink= createdDrink.getDrink("TurbulentJuice");
+        Drink drink = createdDrink.getDrink("TurbulentJuice");
 
         /*Pack*/
         FactoryPack factoryPack = new FactoryPack();
@@ -32,16 +32,13 @@ public class FastBreakTruck
 
 
         System.out.println("\nSmiggles!!!!\n" +
-                "Desayuno Wualuano"
+                "Desayuno Smiggles"
                 +"\n"+"-----------------"+"\n"
                 +"Cereales: "+ item.itemName()+" Precio: " + item.itemPrice()+"\n"
                 +"Bebida: "+ drink.name()+ " Precio: " + drink.price()+"\n"
                 +"Pack: "+ packing.shapePack()+"\n"
                 +"Coste total:            "+ totalPrice+ " Bitcoins"
         );
-
-
-
 
         /*Segundo desayuno del día*/
 
@@ -64,7 +61,7 @@ public class FastBreakTruck
 
 
         System.out.println("\nEyeholes!!!!\n" +
-                "Desayuno Bubalu"
+                "Desayuno Eyeholes"
                 +"\n"+"-----------------"+"\n"
                 +"Cereales: "+ item2.itemName()+" Precio: " + item2.itemPrice()+"\n"
                 +"Bebida: "+ drink2.name()+ " Precio: " + drink2.price()+"\n"

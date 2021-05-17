@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/FastBreakTruck/FastBreakTruck.iml" filepath="$PROJECT_DIR$/FastBreakTruck/FastBreakTruck.iml" />
+      <module fileurl="file://$PROJECT_DIR$/FastBreakTruck.iml" filepath="$PROJECT_DIR$/FastBreakTruck.iml" />
     </modules>
   </component>
 </project>
